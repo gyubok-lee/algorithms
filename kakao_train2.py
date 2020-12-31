@@ -1,3 +1,5 @@
+# https://programmers.co.kr/learn/courses/30/lessons/17676
+
 def get_time(s,t) :
     hh,mm,ss = map(float,s.split(":"))
     end = hh * 3600 + mm * 60 + ss

@@ -1,5 +1,6 @@
 from collections import defaultdict
 from bisect import bisect_left, bisect_right
+# https://programmers.co.kr/learn/courses/30/lessons/60060
 # ?가 있는 구간을 빠르게 찾는 것이 중요: 너무 어려웠음. trie알고리즘
 # bisect는 정렬된 리스트에서 입력값이 위치할 인덱스를 반환.
 def count_by_range(lst, start, end):
