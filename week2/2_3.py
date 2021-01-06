@@ -1,5 +1,11 @@
 # https://www.acmicpc.net/problem/14502
+"""
+1. 최대 깊이에 닿았을때
+2. 일반 연산 후 재귀
+3. 표식이 있었다면 제거
+4. 표식은 행해준 같은 인덴트안에서 지워주면 됨.
 
+"""
 from collections import deque
 def finder(depth):
     global arr
