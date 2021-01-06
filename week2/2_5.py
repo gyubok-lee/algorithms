@@ -1,3 +1,5 @@
+https://www.acmicpc.net/problem/20057
+
 def tornado(n,m) :
     global res
     now = field[n][m]
