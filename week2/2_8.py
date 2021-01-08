@@ -1,5 +1,7 @@
 # https://programmers.co.kr/learn/courses/30/lessons/60061
 
+# 과도하게 어렵게 생각하는 경향이 있음. 최대한 단순화하고, 무식한 코드부터라도 짜기
+
 # 현 상태가 가능한 상태인지를 판단
 def impossible(result):
     COL, ROW = 0, 1
