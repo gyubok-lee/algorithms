@@ -2,14 +2,14 @@
 
 # 백트레킹 관련문제
 def nQueen(row, n):
+    global cnt
     if row == n:
-        global cnt
         cnt += 1
         return
 
     for i in range(n):
         chess[row] = i
-        if checker(row) == True:
+        if checker(row):
             nQueen(row + 1, n)
 
 def checker(row):
