@@ -1,5 +1,6 @@
 # N-queen
 
+# 백트레킹 관련문제
 def nQueen(row, n):
     if row == n:
         global cnt
