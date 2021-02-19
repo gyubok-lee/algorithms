@@ -39,7 +39,7 @@ graph = [{} for i in range(V+1)]
 
 for i in range(E):
     u,v,w = map(int,input().split())
-    if v in graph[u] :
+    if v in graph[u] : # 같은 간선 다른 가중치 입력이 있을수 있음
         graph[u][v] = min(graph[u][v],w)
     else :
         graph[u][v] = w
