@@ -1,7 +1,6 @@
 # https://programmers.co.kr/learn/courses/30/lessons/72414
 
 # 동적계획법을 활용한 시청자수 마킹
-
 def str2int(time):
     h, m, s = time.split(':')
     return int(h) * 3600 + int(m) * 60 + int(s)
