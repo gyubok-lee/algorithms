@@ -33,6 +33,7 @@ def autumn() :
             for k in range(len(trees[i][j])):
                 if trees[i][j][k] % 5 ==0 and trees[i][j][k] >= 5:
                     growed.append((i,j))
+
     while growed :
         x,y = growed.pop()
         for d in deltas:
