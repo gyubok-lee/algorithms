@@ -2,6 +2,7 @@
 
 # 첫번째 테스트 케이스가 틀림.. 원인을 모르겠음
 # 승객을 고르는 함수에서 오류가 있을듯함.
+# 비슷한 모범답안 : https://m.blog.naver.com/qkr5158/222100190436
 from collections import deque
 
 def choose_user(pos):
